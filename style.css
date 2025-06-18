@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz@10..72&family=Lexend+Deca:wght@100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +10,30 @@ body {
     align-items: center;
     justify-content: center;
     padding: 5rem;
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: white;
 }
 .preview-card {
     border: 1px red solid;
     display: flex;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders', sans-serif;
+    font-size: 2rem;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.preview-card__column--sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+.preview-card__column--suv {
+    background-color: hsl(184, 100%, 22%);
+}
+.preview-card__column--luxury {
+    background-color: hsl(179, 100%, 13%);
 }
